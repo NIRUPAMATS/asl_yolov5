@@ -2,6 +2,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import torch
 import cv2
+import ultralytics
 
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=True)
 
